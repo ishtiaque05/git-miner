@@ -10,7 +10,8 @@ setup (
 	test_suite="tests", # where to find tests
 	entry_points = {
 		'console_scripts': [
-			'gitstat=gitstat.__main__:main'
+			'gitstat=gitstat.__main__:main',
+			'gitlog-duration=gitlog_duration.__main__:main'
 			]
 		}
 	)
