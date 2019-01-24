@@ -1,0 +1,6 @@
+## python dist files
+build/
+dist/
+**.egg-info
+.idea
+**.pyc
