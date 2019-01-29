@@ -4,7 +4,6 @@ import argparse
 def cli():
   parser = argparse.ArgumentParser(description="This script returns top contributors sorted by number of commits")
   parser.add_argument('number', type=int, default=0, nargs='?', help="Return top n contributors")
-  parser.add_argument('number', type=int, default=0, nargs='?', help="Return top n contributors")
   return parser.parse_args()
 
 def main():
